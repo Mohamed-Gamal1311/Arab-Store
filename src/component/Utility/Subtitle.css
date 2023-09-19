@@ -1,0 +1,27 @@
+.Subtitle-cont{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.title{
+    padding-top: 3%;
+    background: aliceblu;
+}
+.title .Subtitle-cont button{
+    padding: 2px 31px;
+    font-size: 27px;
+    border-radius: 6px;
+}
+.title .Subtitle-cont .subtitle{
+    font-size: 27px;
+}
+@media(max-width:500px){
+    .title .Subtitle-cont .subtitle{
+        font-size: 20px;
+    }
+    .title .Subtitle-cont button{
+        padding: 2px 20px;
+        font-size: 20px;
+        border-radius: 3px;
+    }
+}

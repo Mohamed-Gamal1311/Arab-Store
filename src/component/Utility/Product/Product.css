@@ -1,0 +1,59 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+.Home-most{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3%;
+}
+.Home-most .card-most{
+    width: 20%;
+    box-shadow:  0 5px 15px rgba(1, 1,1,100%);
+    position: relative;
+  
+}
+.card-most img{
+    max-width: 100%;
+
+    max-height: 100%;
+    min-height: 100%;
+
+}
+.card-most .fav{
+position: absolute;
+left: 4%;
+top: 62%;
+}
+.card-most .title{
+    padding-top: 3%;
+    text-align: center;
+}
+.card-most .price-rate{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-most .price{
+    color: maroon;
+    font-size: 18px;
+}
+@media(max-width:1350px){
+    .Home-most{
+    flex-wrap: wrap;
+    }
+    .Home-most .card-most{
+        width:48%;
+        margin-bottom: 5%;
+    }
+}
+@media(max-width:550px){
+    .card-most .fav{
+        top:66%
+    }
+    .Home-most .card-most{
+        width:100%;
+        margin-bottom: 5%;
+    }
+}

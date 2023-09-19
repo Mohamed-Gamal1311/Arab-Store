@@ -1,0 +1,87 @@
+{
+    "Catogrycard":[
+        {
+            "type":"discound",
+            "id":1 ,
+            "image":"/images/cat2.png",
+            "title":"مستلزمات"
+        },
+        {
+            "type":"discound",
+            "id":2 ,
+            "image":"/images/item.png",
+            "title":"ملابس"
+        },
+        {
+            "type":"discound",
+            "id":3 ,
+            "image":"/images/item.png",
+            "title":"تكنولوجي"
+        },
+        {
+            "type":"discound",
+            "id":4 ,
+            "image":"/images/pic.png",
+            "title":"ادوات منزليه"
+        },  {
+            "type":"discound",
+            "id":5 ,
+            "image":"/images/sale.png",
+            "title":"ادوات منزليه"
+        },
+          {
+            "type":"discound",
+            "id":6,
+            "image":"/images/slider1.png",
+            "title":"ادوات منزليه"
+
+        }
+    ],
+    "mostsee":[
+        {
+            "type":"mostseller",
+            "id":7,
+            "image":"/images/item.png",
+            "title":"سماعه زكيه بيب اس اسود كربون ",
+            "favor":"/images/fav-off.png",
+            "rate":"/images/rate.png",
+            "price":10
+
+        },
+        {
+            "type":"mostseller",
+            "id":8,
+            "image":"/images/item.png",
+            "title":"سماعه زكيه بيب اس اسود كربون ",
+            "favor":"/images/fav-off.png",
+            "rate":"/images/rate.png",
+            "price":20
+
+
+        },
+        {
+            "type":"mostseller",
+            "id":9,
+            "image":"/images/item.png",
+            "title":"سماعه زكيه بيب اس اسود كربون ",
+            "favor":"/images/fav-off.png",
+            "rate":"/images/rate.png",
+            "price":30
+
+
+        } ,
+         {
+            "type":"mostseller",
+            "id":10,
+            "image":"/images/item.png",
+            "title":"سماعه زكيه بيب اس اسود كربون ",
+            "favor":"/images/fav-off.png",
+            "rate":"/images/rate.png",
+            "price":40
+
+
+        }
+
+]
+
+}

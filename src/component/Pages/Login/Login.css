@@ -1,0 +1,39 @@
+.Login{
+    position: fixed;
+   
+    background: #ffffff;
+    height: 100vh;
+    z-index: 999999;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login .Parent-log{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.Login .Parent-log h3{
+       margin-bottom: 1%;
+    margin-right: 2%;
+}
+
+.Login .Parent-log .form-log input{
+   display: block;
+   margin-bottom: 5%;
+}
+.Login .Parent-log .form-log button{
+        margin-top: 5%;
+    padding: 2px 50px;
+    background: black;
+    color: white;
+    border-radius: 3px
+}
+.Login .Parent-log .form-log button:hover{
+    background: white;
+    color: black;
+}

@@ -1,0 +1,42 @@
+.Container{
+   width: 80%;
+   margin: auto;
+}
+
+.slider{
+    background: burlywood;
+    height: 86vh;
+    position: relative;
+    padding-top: 14vh;
+
+}
+.slider .slider-con{
+    width:48%;
+    height: 70vh;
+    
+}
+.slider img{
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+  
+}
+.slider .para-slider{
+    font-size: 35px;
+    color: brown;
+    width: 40%;
+}
+.Parent-sl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(max-width:505px){
+    .slider .slider-con{
+        height: 50vh;
+    }
+    .slider .para-slider{
+        width: 48%;
+    }
+}

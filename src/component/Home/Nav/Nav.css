@@ -1,0 +1,105 @@
+.NAV{
+    background: black;
+    height: 14vh;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
+.NAV .container {
+    width: 80%;
+    margin: auto;
+}
+.NAV .container .parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 14vh;
+}
+ .logo{
+    height: 14vh;
+    
+}
+.NAV .parent .logo img{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+
+
+.NAV .container .parent .Content{
+    display: flex;
+    color: white;
+    justify-content: space-between ;
+    align-items: center;
+    z-index: 9999%;
+}
+
+.NAV .container .parent .Content div{
+    margin-left: 15%
+}
+.image{
+    position: relative;
+     display: none;
+}
+.image img{
+    position: absolute;
+    right: 75%;
+    bottom: 100%;
+    max-width : 100%;
+
+}
+@media(max-width:900px){
+    .NAV .container .parent .Content{
+        display: block;
+        width: 400px;
+        position: fixed;
+        left: -400px;
+        margin-top: 114vh;
+        background: black;
+        height: 100%;
+        transition: 0.5s;
+        width: 50%;
+        z-index: 9999999;
+    }
+    .image{
+        display: block;
+        height: 13vh;
+        
+
+    }
+    .image img{
+        max-width: 100%;
+        min-height: 100%;
+        max-height: 100%;
+        
+     }
+    .logo{
+        padding-left: 80%;
+    }
+    .NAV .container .parent .Content div{
+      margin-bottom: 4%;
+      padding-top: 14%
+       }
+       .NAV .container .parent .Content .Cart-logo{
+        padding-top: 14%;
+        margin-left: 17%;
+       }
+
+    }
+   
+    .NAV .parent .Content a{
+        text-decoration: none;
+        color: white;
+    }
+    @media(max-width:460px){
+        .image img{
+            right: 76%;
+          
+        }
+        .image{
+            display: block;
+            height: 12vh;
+
+    }
+}

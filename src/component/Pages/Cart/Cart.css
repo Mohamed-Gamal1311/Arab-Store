@@ -1,0 +1,132 @@
+.Cart{
+    padding-top: 3%;
+    background: whitesmoke;
+ 
+}
+.Cart .car-title{
+    text-align: end;
+    margin-bottom: 1%;
+}
+.Cart .cart-ppp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%
+}
+.Cart .cart-ppp .bill{
+    background: white;
+    border-radius: 5px;
+    width: 35%;
+    text-align: center;
+}
+.Cart .cart-ppp .bill .para-bill{
+    margin-bottom: 7%;
+}
+.Cart .cart-ppp .bill .payment{
+    margin-bottom: 7%;
+}
+.Cart .cart-ppp .bill .confirm{
+    margin-bottom: 7%;
+    padding: 6px 73px;
+    color: white;
+    background: green;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.Cart .cart-ppp .cart-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    background: white;
+    border-radius: 5px;
+  
+}
+.Cart .cart-ppp .cart-cards .image-cont {
+    width: 100%;
+}
+.Cart .cart-ppp .cart-cards .image-cont img{
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.Cart .cart-ppp .cart-cards .text-cart h3 {
+ 
+    text-align: end;
+    margin-bottom: 6%;
+}
+.Cart .cart-ppp .cart-cards .text-cart .quantit{
+    margin-bottom: 6%;
+    text-align: end;
+    font-size: 23px;
+}
+
+.Cart .cart-ppp .cart-cards .text-cart .image-cart{
+    padding-left: 55%;
+    padding-top: 15%;
+}
+
+
+.eeeee{
+    display: none;
+}
+.Cart .total-bill{
+   
+    top: 32%;
+    left: 19%;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    width :30%
+}
+.Cart .total-bill .para-cart{
+    padding-top: 2%;
+    margin-bottom: 8%;
+    color: green;
+   
+}
+.Cart .total-bill .total{
+    margin-bottom: 8%;
+    font-size: 25px;
+}
+.Cart .total-bill .btn-buy{
+    padding: 15px 80px;
+    margin-bottom: 9%;
+    background: green;
+ 
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.message{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 43px;
+    color: red;
+}
+
+@media(max-width:1250px){
+    .Cart .total-bill{
+        margin-top: 5%;
+    }
+    .Cart .cart-ppp{
+        flex-direction: column;
+        padding-top: 5%;
+    }
+    .Cart .total-bill .btn-buy{
+        padding: 10px 40px;
+    }
+}
+@media(max-width:1250px){
+    .Cart .total-bill .btn-buy{
+        padding: 8px 24px;
+       
+    }
+    .Cart .total-bill{
+        width :45%;
+    }
+
+}
